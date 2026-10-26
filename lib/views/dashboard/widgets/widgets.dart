@@ -7,5 +7,13 @@ export 'network_takeover.dart';
 export 'outbound_mode.dart';
 export 'profiles.dart';
 export 'proxy_groups.dart';
-export 'service_status.dart';
+//export 'service_status.dart';
 export 'traffic.dart';
+import 'package:flutter/widgets.dart';
+
+class ServiceStatusCard extends StatelessWidget {
+  const ServiceStatusCard({super.key});
+
+  @override
+  Widget build(BuildContext context) => const SizedBox.shrink();
+}

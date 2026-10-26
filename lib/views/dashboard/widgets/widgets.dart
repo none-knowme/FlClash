@@ -10,9 +10,9 @@ export 'profiles.dart';
 export 'proxy_groups.dart';
 //export 'service_status.dart';
 export 'traffic.dart';
-
 class ServiceStatusCard extends StatelessWidget {
-  const ServiceStatusCard({super.key});
+  final int? columns;
+  const ServiceStatusCard({super.key, this.columns});
 
   @override
   Widget build(BuildContext context) => const SizedBox.shrink();

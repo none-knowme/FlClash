@@ -227,12 +227,6 @@ class _DesktopDashboard extends StatelessWidget {
             row([
               (1, const IntranetIpCard()),
               (1, const ProfilesCard()),
-              (
-                1,
-                ServiceStatusCard(
-                  columns: column >= _servicePairColumnMin * scale ? 2 : 1,
-                ),
-              ),
               (1, const MemoryInfo()),
             ]),
           ),

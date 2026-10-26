@@ -1,3 +1,4 @@
+import 'package:flutter/widgets.dart';
 export 'connection_stats.dart';
 export 'connections_table.dart';
 export 'current_outbound.dart';
@@ -9,7 +10,6 @@ export 'profiles.dart';
 export 'proxy_groups.dart';
 //export 'service_status.dart';
 export 'traffic.dart';
-import 'package:flutter/widgets.dart';
 
 class ServiceStatusCard extends StatelessWidget {
   const ServiceStatusCard({super.key});
